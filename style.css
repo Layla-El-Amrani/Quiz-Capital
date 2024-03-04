@@ -1,0 +1,469 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow: none;
+}
+
+
+.bd{
+    background: url('bg7.jpg');
+    width: 100%;
+    height: 6%;
+    background-size:100% 100%;
+    background-repeat: no-repeat;
+    background-position: center; 
+}
+h1{
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    font-family: sans-serif;
+ 
+}
+.container{
+    text-align: center;
+    margin-top: 10%;
+
+    
+}
+button{
+    background: none;
+    cursor: pointer;
+
+}
+
+.btn1{
+    width: 200px;
+    height: 100px;
+    margin: 10px;
+    border-radius:20px ;
+    border: 10px groove  #f15526;
+    font-size: 30px;
+    color: #f25222;
+
+}
+.btn1:hover{
+    width: 200px;
+    height: 100px;
+    margin: 10px;
+    border-radius:20px ;
+    border: 10px groove #ac320d;
+    font-size: 30px;
+    color: #7c260c;
+
+}
+.btn2{
+    width: 200px;
+    height: 100px;
+    margin: 10px;
+    border-radius:20px ;
+    border: 10px groove #ffa200;
+    font-size: 30px;
+    color: #ffa100;
+}
+.btn2:hover{
+    width: 200px;
+    height: 100px;
+    margin: 10px;
+    border-radius:20px ;
+    border: 10px groove #744900;
+    font-size: 30px;
+    color: #7e5000;
+}
+.btn3{
+    width: 200px;
+    height: 100px;
+    margin: 10px;
+    border-radius:20px ;
+    border: 10px groove #ad32ff;
+    font-size: 30px;
+    color: #aa36f7;
+    box-shadow: 1px 1px 1px 1px;
+    box-sizing: border-box;  
+}
+.btn3:hover{
+    width: 200px;
+    height: 100px;
+    margin: 10px;
+    border-radius:20px ;
+    border: 10px groove #7a26b3;
+    font-size: 30px;
+    color: #7626ab;
+    box-shadow: 1px 1px 1px 1px;
+    box-sizing: border-box;  
+}
+#btn{
+    width: 200px;
+    height: 60px;
+    font-size: 30px;
+    margin-top: 30%;
+    color: white;
+    border-radius: 15px;
+    margin-right: 10px;
+    background-color: rgb(0, 0, 157);
+    
+}
+
+#btn:hover{
+    width: 200px;
+    height: 60px;
+    font-size: 30px;
+    margin-top: 30%;
+    color: white    ;
+    border-radius: 15px;
+    background-color: rgb(1, 1, 133);
+    
+}
+.btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+    
+}
+img{
+    display: none;
+    width: 200px;
+    height: 100px;
+    margin: auto;
+    border-radius:20px ;
+    border: 10px double orange;
+
+}
+.next{
+
+    width: 150px;
+    height: 50px;
+    font-size: 30px;
+    margin-top: 30px;
+    color: white;
+    border-radius: 15px;
+    background-color: rgba(2, 107, 2, 0.667);
+}
+.next:hover{
+    width: 150px;
+    height: 50px;
+    font-size: 30px;
+    margin-top: 30px;
+    color: white;
+    border-radius: 15px;
+    background-color: rgb(1, 101, 1);
+}
+#question1{
+    display: none;
+}
+#question2{
+    display: none;
+}
+#question3{
+    display: none;
+}
+#question10{
+    display: none;
+}
+#time{
+    color: white;
+    font-size: 25px;
+    margin: auto;
+    color: red;
+
+}
+h2{
+    color: white;
+}
+h3{
+
+    color: red;
+}
+.score{
+    color: rgb(111, 210, 252);
+    border-radius: 35px;
+    border: 5px groove rgb(111, 210, 252);
+    width: 100px;
+    padding: 10px; 
+    display: none; 
+    position: relative;
+    top: 20px;
+        
+}
+.questions{
+    color: rgb(111, 210, 252);
+    border-radius: 35px;
+    border: 5px groove rgb(111, 210, 252);
+    width: 100px;
+    padding: 10px; 
+    display: none; 
+    position: relative;
+    top: 20px;
+        
+}
+.time{
+    color: rgb(111, 210, 252);
+    border-radius: 35px;
+    border: 5px groove rgb(111, 210, 252);
+    width: 100px;
+    padding: 10px;  
+    display: none;
+    position: relative;
+    top: 20px;
+        
+    
+}
+#Resultat{
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    margin: auto;
+    width: 600px;
+    margin-top: 20%;
+    font-family: sans-serif;
+    display: none;  
+}
+.btnresultat{
+    background-color: red;
+    color: red;
+}
+
+
+@media screen and (max-width:500px) {
+    html, body {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 100%;
+    }
+    
+    
+    .bd{
+        background: url('bg7.jpg');
+        width: 100%;
+        background-size:100% 100%;
+        background-repeat: no-repeat;
+        background-position: center; 
+    }
+    h1{
+        text-align: center;
+        color: white;
+        font-size: 25px;
+        margin-top: 50px;
+        font-family: sans-serif;
+     
+    }
+    .container{
+        text-align: center;
+        margin-top: 15%;
+    
+        
+    }
+    button{
+        background: none;
+        cursor: pointer;
+    
+    }
+    
+    .btn1{
+        width: 180px;
+        height: 80px;
+        margin: 10px;
+        border-radius:20px ;
+        border: 10px groove #f15526;
+        font-size: 30px;
+        color: #f15526;
+    
+    }
+    .btn1:hover{
+        width: 180px;
+        height: 80px;
+        margin: 10px;
+        border-radius:20px ;
+        border: 10px groove #ac320d;
+        font-size: 30px;
+        color: #ac320d;
+    
+    }
+    .btn2{
+        width: 180px;
+        height: 80px;
+        margin: 10px;
+        border-radius:20px ;
+        border: 10px groove #ffa200;
+        font-size: 30px;
+        color: #ffa200;
+    }
+    .btn2:hover{
+        width: 180px;
+        height: 80px;
+        margin: 10px;
+        border-radius:20px ;
+        border: 10px groove #744900;;
+        font-size: 30px;
+        color: #744900;;
+    }
+    .btn3{
+        width: 180px;
+        height: 80px;
+        margin: 10px;
+        border-radius:20px ;
+        border: 10px groove #ad32ff;
+        font-size: 30px;
+        color: #ad32ff;
+        box-shadow: 1px 1px 1px 1px;
+        box-sizing: border-box;  
+    }
+    .btn3:hover{
+        width: 180px;
+        height: 80px;
+        margin: 10px;
+        border-radius:20px ;
+        border: 10px groove #7a26b3;
+        font-size: 30px;
+        color: #7a26b3;
+        box-shadow: 1px 1px 1px 1px;
+        box-sizing: border-box;  
+    }
+    #btn{
+        width: 150px;
+        height: 50px;
+        font-size: 30px;
+        margin-top: 450px;
+        color: white;
+        border-radius: 15px;
+        background-color: rgb(0, 0, 157);
+        
+    }
+    
+    #btn:hover{
+        width: 150px;
+        height: 50px;
+        font-size: 30px;
+        margin-top: 450px;
+        color: white;
+        border-radius: 15px;
+        background-color: rgb(1, 1, 112);
+        
+    }
+    .btn{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    
+    
+        
+    }
+
+    .next{
+        width: 150px;
+        height: 50px;
+        font-size: 30px;
+        color: white;
+        border-radius: 15px;
+        background-color: rgba(2, 107, 2, 0.667);
+        cursor: pointer;
+    }
+    .next:hover{
+        width: 150px;
+        height: 50px;
+        font-size: 30px;
+        color: white;
+        border-radius: 15px;
+        background-color: rgba(5, 66, 5, 0.568);
+        cursor: pointer;
+    }
+    #question1{
+        display: none;
+    }
+    #question2{
+        display: none;
+    }
+    #question3{
+        display: none;
+    }
+    #question4{
+        display: none;
+    }
+    #question5{
+        display: none;
+    }
+    #question6{
+        display: none;
+    }
+    #question7{
+        display: none;
+    }
+    #question8{
+        display: none;
+    }
+    #question9{
+        display: none;
+    }
+    #question10{
+        display: none;
+    }
+    #time{
+        color: white;
+        font-size: 5px;
+        margin: auto;
+        color: red;
+        
+    
+    }
+    h2{
+        color: white;
+    }
+    .score{
+        color: rgb(111, 210, 252);
+        border-radius: 35px;
+        border: 5px groove rgb(111, 210, 252);
+        width: 100px;
+        padding: 10px;
+        display: none; 
+        position: relative;
+        top: 20px;
+         
+    }
+    .questions{
+        color: rgb(111, 210, 252);
+        border-radius: 35px;
+        border: 5px groove rgb(111, 210, 252);
+        width: 100px;
+        padding: 10px;
+        display: none; 
+        position: relative;
+        top: 20px;
+         
+    }
+    .time{
+        color: rgb(111, 210, 252);
+        border-radius: 35px;
+        border: 5px groove rgb(111, 210, 252);
+        width: 100px;
+        padding: 10px; 
+        display: none; 
+        position: relative;
+        top: 20px;
+        
+    }
+
+    #Resultat{
+        color: white;
+        font-size: 20px;
+        text-align: center;
+        font-family: sans-serif;
+        display: none;
+        width: auto;
+        margin-top: 250px;
+        line-height: 30px;
+       
+          
+    }
+    .btnresultat{
+        background-color: red;
+        color: red;
+    }
+      
+    
+}
+
